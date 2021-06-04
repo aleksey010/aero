@@ -11,7 +11,7 @@
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     
     <link rel="stylesheet" href="css/style.min.css">
-    <title>Аэро - отзывы</title> 
+    <title>Аэро - галерея</title> 
 </head>
 <body>
     <div class="wrapper">
@@ -28,10 +28,10 @@
                         <li><a href="#">Плетение волос</a></li>
                     </ul>
                 </li>
-                <li><a href="#">Отзывы</a></li>
+                <li><a href="reviews.html">Отзывы</a></li>
                 <li><a href="gallery.html">Галерея</a></li>
-                <li><a href="vacancies.html">Вакансии</a></li>
-                <li><a class='contanct-botton contact_btn' href="#footer">Контакты</a></li>
+                <li><a href="#">Вакансии</a></li>
+                <li><a class='contanct-botton' href="#footer">Контакты</a></li>
             </ul>
             <div class="main-content d-flex flex-column w-100 justify-between aling-center">
                 <div class="contact_infotmation flex-column">
@@ -130,8 +130,8 @@
                                             Цены и услуги
                                         </a>
                                     </li>
-                                    <li class="active">
-                                        <a href="#">
+                                    <li>
+                                        <a href="reviews.html">
                                             Отзывы
                                         </a>
                                     </li>
@@ -140,13 +140,13 @@
                                             Галерея
                                         </a>
                                     </li>
-                                    <li>
-                                        <a href="vacancies.html">
+                                    <li class="active">
+                                        <a href="#">
                                             Вакансии
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#contact">
+                                        <a href="#contact" class="contact_btn">
                                             Контакты
                                         </a>
                                     </li>
@@ -209,37 +209,84 @@
                 </div>
             </div>
         </header>
-        <section class="main_contant reviews color_f9">
+        <section class="main_contant vacancies color_f9">
             <div class="heading">
                 <div class="container">
                     <div class="row justify-center">
                         <div class="col">
-                            <h2>Отзывы</h2>
+                            <h2>Вакансии</h2>
+                            <div class="section_heading">
+                                <h3>
+                                    Приглашаем на работу
+                                </h3>
+                            </div>
                         </div>
-                    </div>
-                    <div class="sub-text">
-                        <p>Пожалуйста, уделите минутку Вашего внимания и оставьте отзыв о нашем салоне. <br> Нам очень важно любое ваше мнение!</p>
                     </div>
                 </div>
             </div>
-            <div class="reviews_block">
+            <div class="vacancies_block">
                 <div class="container">
-                    <div class="row">
+                    <div class="row ">
                         <div class="col">
-                            <div class="like">
-                                <div class="reviews_icon">
-                                    <img src="img/like.png" alt="like">
+                            <div class="vacancies_item">
+                                <div class="vacancies_img" style="background-image: url(img/vacancies1.png);"></div>
+                                <div class="vacancies_text">
+                                    <div class="section_heading">
+                                        <h3>
+                                            Парикмахер-стилист
+                                        </h3>
+                                        <div class="sub-text">
+                                            <p>Мужские и женские стрижки,
+                                                окрашивание, свадебные причёски.
+                                                Опыт работы от 3 лет.</p>
+                                        </div>
+                                    </div>
                                 </div>
-                                <button class="purple_button">Понравилось</button>
                             </div>
                         </div>
                         <div class="col">
-                            <div class="dislike">
-                                <div class="reviews_icon">
-                                    <img src="img/dislike.png" alt="dislike">
+                            <div class="vacancies_item">
+                                <div class="vacancies_img" style="background-image: url(img/vacancies2.png);"></div>
+                                <div class="vacancies_text">
+                                    <div class="section_heading">
+                                        <h3>
+                                            Мастер маникюра/пкдикюра
+                                        </h3>
+                                        <div class="sub-text">
+                                            <p>Владение современными техниками,
+                                                наращивание, акрил, уход.
+                                                Опыт  работы от 3 лет.</p>
+                                        </div>
+                                    </div>
                                 </div>
-                                <button class="purple_button">Не Очень</button>
                             </div>
+                        </div>
+                        <div class="col">
+                            <div class="vacancies_item">
+                                <div class="vacancies_img" style="background-image: url(img/vacancies3.png);"></div>
+                                <div class="vacancies_text">
+                                    <div class="section_heading">
+                                        <h3>
+                                            Ученик парикмахера
+                                        </h3>
+                                        <div class="sub-text">
+                                            <p>Без опыта работы, 
+                                                без специального образования
+                                                или курсы. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom_section_text">
+                <div class="container">
+                    <div class="row justify-center">
+                        <div class="col">
+                            <p class="small-text">Более подробную информацию можно уточнить по телефону
+                            <h3>Звоните <span>8 (967) 251-42-32</span></h3>
                         </div>
                     </div>
                 </div>
@@ -327,10 +374,10 @@
                                     <a href="gallery.html">Галерея</a>
                                 </li>
                                 <li>
-                                    <a href="vacancies.html">Вакансии</a>
+                                    <a href="#">Вакансии</a>
                                 </li>
                                 <li>
-                                    <a href="#" class="contact_btn">Контакты</a>
+                                    <a href="#">Контакты</a>
                                 </li>
                             </ul>
                         </div>
