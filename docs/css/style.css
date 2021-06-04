@@ -613,6 +613,10 @@ header .con2 nav li:before {
           justify-content: center;
 }
 
+#slider .slide-item .slider-content .mobile-text {
+  display: none;
+}
+
 #slider .slide-item .slider-content .content-slide1 {
   max-width: 540px;
 }
@@ -677,6 +681,10 @@ header .con2 nav li:before {
 }
 
 .main_contant .mobile_heading {
+  display: none;
+}
+
+.main_contant .services_in_the_office_of_cosmetology .images .mobile-img {
   display: none;
 }
 
@@ -1137,6 +1145,10 @@ footer li {
   width: 100%;
 }
 
+#popup_phone .mobile-btn {
+  display: none;
+}
+
 #popup_phone .sub-text {
   margin: 15px 0px;
 }
@@ -1199,6 +1211,14 @@ footer li {
 
   .main_contant .mobile_heading {
     display: block !important;
+  }
+
+  .main_contant .services_in_the_office_of_cosmetology .images .mobile-img {
+    display: block;
+  }
+
+  .main_contant .services_in_the_office_of_cosmetology .images .long {
+    display: none;
   }
 
   .main_contant .row {
@@ -1353,6 +1373,26 @@ footer li {
   }
 }
 
+@media screen and (max-width: 700px) {
+  #popup_phone .purple_button {
+    display: none;
+  }
+
+  #popup_phone .mobile-btn {
+    display: block !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #slider .slide-item .slider-content .mobile-text {
+    display: block;
+  }
+
+  #slider .slide-item .slider-content .content-slide2 .mobile-remove {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 570px) {
   .purple_button {
     font-size: 15px;
@@ -1360,6 +1400,7 @@ footer li {
 
   #slider .slide-item {
     height: 400px;
+    background-position-x: 50%;
   }
 
   .main_contant .tablet-prices .top_heading p {
@@ -1403,6 +1444,40 @@ footer li {
   }
 }
 
+@media screen and (max-width: 530px) {
+  .purple_button {
+    font-size: 13px;
+    padding: 10px 46px;
+  }
+
+  #slider .slide-item {
+    height: 300px;
+  }
+
+  #slider .slide-item .slider-content .content-slide1 h1 {
+    font-size: 25px;
+    max-width: 270px;
+  }
+
+  #slider .slide-item .slider-content .content-slide1 p {
+    font-size: 20px;
+  }
+
+  #slider .slide-item .slider-content .content-slide2 h1 {
+    font-size: 25px;
+    max-width: 300px;
+  }
+
+  #slider .slide-item .slider-content .content-slide2 h1 {
+    font-size: 25px;
+    max-width: 300px;
+  }
+
+  #slider .slide-item .slider-content .content-slide2 p {
+    font-size: 20px;
+  }
+}
+
 @media screen and (max-width: 510px) {
   .section_contact .photos {
     display: none;
@@ -1422,6 +1497,11 @@ footer li {
   .wrapper > .header-burger-menu .arrow-li .dropdown-item li a {
     font-size: 10px;
   }
+
+  #slider .slick-dots li {
+    width: 10px;
+    height: 10px;
+  }
 }
 
 @media screen and (max-width: 470px) {
@@ -1436,11 +1516,14 @@ footer li {
   }
 
   #slider .slide-item .slider-content .content-slide1 h1 {
-    font-size: 30px;
+    font-size: 20px;
   }
+}
 
-  #slider .slide-item .slider-content .content-slide2 h1 {
-    font-size: 30px;
+@media screen and (max-width: 430px) {
+  #popup_phone .popup_content {
+    height: 320px;
+    padding-top: 30px;
   }
 }
 
@@ -1464,6 +1547,12 @@ footer li {
   }
 }
 
+@media screen and (max-width: 390px) {
+  #slider .slide-item .slider-content .content-slide2 h1 {
+    font-size: 20px;
+  }
+}
+
 @media screen and (max-width: 370px) {
   .main_contant .tablet-prices .top_heading {
     padding: 0 15px;
@@ -1474,7 +1563,17 @@ footer li {
   }
 }
 
+@media screen and (max-width: 360px) {
+  #slider .slide-item .slider-content .content-slide1 h1 {
+    max-width: 180px;
+  }
+}
+
 @media screen and (max-width: 340px) {
+  .main_contant .tablet-prices .tablet .tablet_row p {
+    font-size: 10px;
+  }
+
   .section_contact .map {
     margin-top: 30px;
   }
