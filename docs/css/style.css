@@ -680,11 +680,27 @@ header .con2 nav li:before {
   background-color: #f9f9f9;
 }
 
-.main_contant .mobile_heading {
-  display: none;
+.reviews .heading {
+  margin: 0;
 }
 
-.main_contant .services_in_the_office_of_cosmetology .images .mobile-img {
+.reviews .heading .container {
+  border-bottom: none;
+}
+
+.reviews .heading h2 {
+  margin: 32px 0;
+}
+
+.reviews .heading .sub-text p {
+  line-height: 1.3;
+  font-family: "Open Sans", sans-serif;
+  font-size: 17px;
+  color: #4a4a4a;
+  text-align: center;
+}
+
+.main_contant .mobile_heading {
   display: none;
 }
 
@@ -1213,12 +1229,8 @@ footer li {
     display: block !important;
   }
 
-  .main_contant .services_in_the_office_of_cosmetology .images .mobile-img {
-    display: block;
-  }
-
   .main_contant .services_in_the_office_of_cosmetology .images .long {
-    display: none;
+    margin: 15px 0;
   }
 
   .main_contant .row {
@@ -1309,6 +1321,10 @@ footer li {
   .heading h2 {
     margin: 28px 0;
     font-size: 28px;
+  }
+
+  .reviews .heading .sub-text p {
+    font-size: 13px;
   }
 
   .section_contact .container-contact {
