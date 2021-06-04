@@ -1374,6 +1374,10 @@ footer li {
 }
 
 @media screen and (max-width: 700px) {
+  #popup_sign_up .popup_container .popup_content form > div {
+    margin: 10px !important;
+  }
+
   #popup_phone .purple_button {
     display: none;
   }
@@ -1544,6 +1548,12 @@ footer li {
   .popup .popup_container .popup_content form select {
     padding: 10px;
     font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  #popup_sign_up .popup_container .popup_content form > div {
+    margin: 5px !important;
   }
 }
 
